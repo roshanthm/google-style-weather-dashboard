@@ -1,0 +1,41 @@
+body {
+  font-family: system-ui;
+  background: #f1f3f4;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.daily {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.day {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
