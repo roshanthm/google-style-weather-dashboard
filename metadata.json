@@ -1,0 +1,7 @@
+{
+  "name": "SkyCast Pro",
+  "description": "A high-performance, AI-powered weather dashboard featuring real-time tracking, 7-day forecasts, and intelligent weather insights.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
