@@ -1,30 +1,20 @@
-# 🌦️ Google-Style Weather App
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A modern **Google Weather–inspired** real-time weather dashboard built with **FastAPI + React (Vite)** using **live OpenWeatherMap API data**.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 🚀 Features
+View your app in AI Studio: https://ai.studio/apps/drive/1xMQbZ0h_EC5ybdzjy7meIZKke1y8rc3Y
 
-- 🌍 Search any city worldwide  
-- 🌡️ Live temperature, humidity, wind speed  
-- 📊 Google-like clean UI  
-- ⚡ FastAPI backend API  
-- 🎨 React + Vite frontend  
-- 🔥 Real-world weather data (not dummy)
+## Run Locally
 
----
+**Prerequisites:**  Node.js
 
-## 🏗️ Tech Stack
 
-- **Frontend:** React + Vite  
-- **Backend:** FastAPI + Uvicorn  
-- **API Provider:** OpenWeatherMap  
-- **Language:** Python + JavaScript  
-
----
-
-👨‍💻 Author
-
-Roshan Thomas
-Full Stack Developer | AI & Innovation Projects
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
