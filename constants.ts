@@ -5,7 +5,7 @@
 
 export const OWM_API_KEY = (typeof process !== 'undefined' && process.env.WEATHER_API_KEY) 
   ? process.env.WEATHER_API_KEY 
-  : "4fcfc437d73dd09ac129306e30d0784e";
+  : ;
 
 export const OWM_BASE_URL = "https://api.openweathermap.org/data/2.5";
 export const OWM_GEO_URL = "https://api.openweathermap.org/geo/1.0";
