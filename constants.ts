@@ -1,9 +1,18 @@
 
-export const OWM_API_KEY = "4fcfc437d73dd09ac129306e30d0784e";
+/**
+ * API CONFIGURATION
+ */
+
+export const OWM_API_KEY = (typeof process !== 'undefined' && process.env.WEATHER_API_KEY) 
+  ? process.env.WEATHER_API_KEY 
+  : "4fcfc437d73dd09ac129306e30d0784e";
+
 export const OWM_BASE_URL = "https://api.openweathermap.org/data/2.5";
 export const OWM_GEO_URL = "https://api.openweathermap.org/geo/1.0";
 
-export const DEFAULT_CITY = "London";
+export const DEFAULT_CITY = "Kanjirappally";
+export const DEFAULT_LAT = 9.5540;
+export const DEFAULT_LON = 77.0315;
 
 export const WEATHER_ICON_MAP: Record<string, string> = {
   '01d': 'Sun',

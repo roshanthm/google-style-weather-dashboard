@@ -1,6 +1,7 @@
 
 export interface WeatherData {
   city: string;
+  originalName?: string; // The name the user actually searched for
   country: string;
   temp: number;
   feelsLike: number;
@@ -35,6 +36,9 @@ export interface WeatherState {
   loading: boolean;
   error: string | null;
   unit: 'metric' | 'imperial';
+  lat?: number;
+  lon?: number;
+  selectedName?: string;
 }
 
 export interface SearchSuggestion {
